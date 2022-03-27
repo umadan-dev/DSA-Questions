@@ -1,1 +1,3 @@
 https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix
+# Add binary search for number of soldiers
+# Add priority queue for sorting
