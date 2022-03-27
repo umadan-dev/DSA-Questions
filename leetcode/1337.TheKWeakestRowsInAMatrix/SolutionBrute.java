@@ -7,11 +7,11 @@ class SolutionBrute {
             for(int j=0;j<mat[i].length;j++){
                 sum+=mat[i][j];
             }
-            result[i]=sum*1000+i;
+            result[i]=sum*mat.length+i;
         }
         Arrays.sort(result);
         for(int i=0;i<k;i++){
-            result[i]=result[i]%1000;
+            result[i]=result[i]%mat.length;
         }
         return Arrays.copyOfRange(result, 0, k);
     }
